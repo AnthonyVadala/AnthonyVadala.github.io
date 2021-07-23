@@ -22,7 +22,7 @@ First thing you need to do is create a Dropbox account, if you use my [referral 
 ### Folder Organization
 I like to keep my images organized in folders that are named after the title of the post the images are used in.
 
-<img src="//dl.dropboxusercontent.com/s/539sjdkxgntp0mb/image1.png" alt="Dropbox folder organization">
+<img src="/images/posts/2019/01/29/image1.png" alt="Dropbox folder organization">
 
 Go ahead and upload an image to Dropbox, using either the Dropbox client or the Dropbox website.
 
@@ -31,13 +31,13 @@ If you hover over the image you uploaded there should be a button labeled *Share
 
 After you click that button you will see the following:
 
-<img src="//dl.dropboxusercontent.com/s/q9wp9mb2thq5aqc/image2.png" alt="Dropbox create shared link">
+<img src="/images/posts/2019/01/29/image2.png" alt="Dropbox create shared link">
 
 Click on the *Create a link* text and you will see Dropbox generate a link for your image (this will take a few seconds).
 
 You will now have two options, *Link settings* and *Copy link*. Click on *Copy link* and <kbd>CTRL</kbd> + <kbd>V</kbd> the URL into the text editor of your choice.
 
-<img src="//dl.dropboxusercontent.com/s/3y3azs280ypkbgo/image3.png" alt="Dropbox shared link options">
+<img src="/images/posts/2019/01/29/image3.png" alt="Dropbox shared link options">
 
 Now that you have the URL for your image, you might think you can just use that URL in a HTML img tag and display your image. Unfortunately, Dropbox requires you to modify the URL you created in order to actually display the image.
 

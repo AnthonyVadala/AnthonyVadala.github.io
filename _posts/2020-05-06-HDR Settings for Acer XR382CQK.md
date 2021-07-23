@@ -36,7 +36,7 @@ Below the **Resolution** section change the option to **Use NVIDIA color setting
   - If using HDMI select : ***YCbCr422***
 - **Output dynamic range** : ***Limited***
 
-<img src="//dl.dropboxusercontent.com/s/a1mtbyxaty9nlqe/image1.png" alt="NVIDIA Control Panel - Display - Change resolution settings">
+<img src="/images/posts/2020/05/06/image1.png" alt="NVIDIA Control Panel - Display - Change resolution settings">
 
 Click ***Apply*** and close the **NVIDIA Control Panel**.
 
@@ -44,11 +44,11 @@ Click ***Apply*** and close the **NVIDIA Control Panel**.
 
 Open the Windows 10 **Settings** by click the gear icon in the Start Menu, then click on **System**. Under Windows HD Color turn the **Play HDR games and apps** turn the option to **On**.
 
-<img src="//dl.dropboxusercontent.com/s/9zuttxf71e0q37k/image2.png" alt="Windows 10 HD color settings">
+<img src="/images/posts/2020/05/06/image2.png" alt="Windows 10 HD color settings">
 
 Click on **Windows HD Color settings**, under **SDR content appearance** move the slider to about ***70%***.
 
-<img src="//dl.dropboxusercontent.com/s/786ljncm841a7vr/image3.png" alt="Windows 10 HDR settings">
+<img src="/images/posts/2020/05/06/image3.png" alt="Windows 10 HDR settings">
 
 You can now close out of the Settings window.
 
@@ -62,7 +62,7 @@ There are two triggers here, **At Log on** and **On connection to user session**
 - Disable them both by clicking on them, clicking **Edit...** and unchecking the **Enabled** box at the bottom of the window
 - Do the above for both **Triggers**
 
-<img src="//dl.dropboxusercontent.com/s/7zfcxfk3uf387r6/image4.png" alt="Windows 10 task scheduler - calibration loader settings">
+<img src="/images/posts/2020/05/06/image4.png" alt="Windows 10 task scheduler - calibration loader settings">
 
 You can now reboot the computer.
 
@@ -79,7 +79,7 @@ Enter the following options for each section:
 - **Digital Vibrance** : ***50%***
 - **Hue** : ***0***
 
-<img src="//dl.dropboxusercontent.com/s/yqiingdrhqi52vp/image5.png" alt="NVIDIA Control Panel - Display - adjust desktop color settings">
+<img src="/images/posts/2020/05/06/image5.png" alt="NVIDIA Control Panel - Display - adjust desktop color settings">
 
 ***Apply*** it and close the **NVIDIA Control Panel**.
 

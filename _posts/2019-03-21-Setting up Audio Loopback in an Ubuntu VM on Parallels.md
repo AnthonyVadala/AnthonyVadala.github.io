@@ -33,13 +33,13 @@ Open up Discord and sign into your second Discord account. Once signed in, open 
 
 Go ahead and click on the *Voice and Audio* section on the left-hand side. Scroll down a bit and toggle the following options:
 
-<img src="//dl.dropboxusercontent.com/s/j1ustxst1uz9lds/image1.png" alt="Discord voice processing options">
+<img src="/images/posts/2019/03/21/image1.png" alt="Discord voice processing options">
 
 This will prevent Discord from trying to "correct" the audio we are going to be looping into it.
 
 Scroll back to the top of the section and configure the Voice Settings like this:
 
-<img src="//dl.dropboxusercontent.com/s/b89sj5qhwg0chal/image2.png" alt="Discord audio levels">
+<img src="/images/posts/2019/03/21/image2.png" alt="Discord audio levels">
 
 This will prevent you from hearing your own mic input once everything is configured.
 
@@ -59,19 +59,19 @@ Across the top of the program there are several different tabs. Click on the *Co
 
 Click on the *Recording* tab. At the very bottom of the window, click on the dropdown menu next to *Show* and select *All Streams*. We then want to select the dropdown menu to the right of *WEBRTC VoiceEngine* and change what we are monitoring to *Monitor of Built-in Audio Analog Surround 5.1*.
 
-<img src="//dl.dropboxusercontent.com/s/ztxu9flbnmiuvix/image3.png" alt="PulseAudio Volume Control recording settings">
+<img src="/images/posts/2019/03/21/image3.png" alt="PulseAudio Volume Control recording settings">
 
 *Every time the VM reboots you will need to change the dropdown next to "WEBRTC VoiceEngine"*
 
 ### Parallels
 In Parallels, open the configuration window and go to the *Hardware* tab. On the left-hand side click on *Sound & Camera* and set both *Sound Output* and *Microphone* to Mute. This will prevent your VM from hearing microphone input and from passing off audio to your speakers, but this will allow you to adjust the volume inside of the VM.
 
-<img src="//dl.dropboxusercontent.com/s/mxuarwkvo450iyx/image4.png" alt="Parallels configuration menu">
+<img src="/images/posts/2019/03/21/image4.png" alt="Parallels configuration menu">
 
 ## Testing the Setup
 Go ahead and open up a YouTube video in your VM. You should see audio activity in PulseAudio Volume Control similar to this:
 
-<img src="//dl.dropboxusercontent.com/s/pd8b2er26mue6s7/image5.png" alt="PulseAudio Volume Control recording monitor">
+<img src="/images/posts/2019/03/21/image5.png" alt="PulseAudio Volume Control recording monitor">
 
 Join a Discord voice channel with your second account inside the VM and join the same voice channel with your original account outside of the VM.
 
