@@ -14,5 +14,3 @@ This Site Utilizes the Following:
 - Google Fonts (Droid Sans Font)
 - Google Hosted Libraries (jQuery)
 - JSFiddle (Code Examples)
-- GitHub Gist (Code Examples)
-- Dropbox (Image hosting)
