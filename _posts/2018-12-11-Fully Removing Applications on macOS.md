@@ -23,7 +23,7 @@ There are two locations on your disk drive, both named `Library`, where applicat
 ### Top Level Library Folder
 Let's start with the top-level `Library` folder, which contains systemwide preferences and application support files. You can get to this directory using the *Go to Folder...* shortcut in Finder. To use this shortcut open Finder and make sure it is in focus, then just hold <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>G</kbd> and you will see this popup:
 
-<img src="//dl.dropboxusercontent.com/s/vgdqusckbx3vbam/image1.png" alt="Go to Folder /Library">
+<img src="/images/posts/2018/12/11/image1.png" alt="Go to Folder /Library">
 
 Type `/Library` then click **Go**.
 
@@ -44,7 +44,7 @@ Once you locate a file or folder, just right click on the file or folder you wan
 ### Home Directory Library Folder
 The second `Library` folder is found in the user directory and contains user specfic preferences and application support files. You can get to this directory using the *Go to Folder...* shortcut, just hold <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>G</kbd> and you will see this popup:
 
-<img src="//dl.dropboxusercontent.com/s/2qnmcsvhnc9gatf/image2.png" alt="Go to Folder ~/Library">
+<img src="/images/posts/2018/12/11/image2.png" alt="Go to Folder ~/Library">
 
 Type `~/Library` then click **Go**.
 
