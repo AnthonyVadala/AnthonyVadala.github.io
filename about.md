@@ -54,7 +54,7 @@ permalink: /
 		<span class="fas fa-code"></span> Projects
 	</div>
 	<div class="img-wrapper">
-		<a href="https://www.adamscable.com/" rel="noopener" target="_blank">
+		<a href="https://web.archive.org/web/20210623233716/https://www.adamscable.com/" rel="noopener" target="_blank">
 			<figure>
 				<img src="/images/projects/adams_cable_service.png" alt="Picture of Adams Cable Service Website" />
 				<figcaption>Adams Cable Service</figcaption>
@@ -68,7 +68,7 @@ permalink: /
 		</a>
 	</div>
 	<div class="img-wrapper">
-		<a href="https://manelinehairdesign.com" rel="noopener" target="_blank">
+		<a href="https://manelinehairdesign.com/" rel="noopener" target="_blank">
 			<figure>
 				<img src="/images/projects/mane_line_hair_design.png" alt="Picture of Mane Line Hair Design Website"/>
 				<figcaption>Mane Line Hair Design</figcaption>
