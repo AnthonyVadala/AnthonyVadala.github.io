@@ -26,6 +26,9 @@
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:image" content="{{ site.url }}{{ site.photo_embed }}">
+	
+	<!-- Mastodon Verification -->
+	<link rel="me" href="https://mastodon.social/@anthonyvadala">
 
 	<!-- Security Headers -->
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
