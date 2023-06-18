@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "4.3.1"
+gem "jekyll", "4.3.2"
 
 # to use GitHub Pages
 # gem "github-pages", group: :jekyll_plugins
