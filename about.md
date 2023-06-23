@@ -56,13 +56,13 @@ permalink: /
 	<div class="img-wrapper">
 		<a href="https://web.archive.org/web/20210623233716/https://www.adamscable.com/" rel="noopener" target="_blank">
 			<figure>
-				<img src="/images/projects/adams_cable_service.png" alt="Picture of Adams Cable Service Website" />
+				<img src="/images/projects/adams_cable_service.webp" alt="Picture of Adams Cable Service Website" />
 				<figcaption>Adams Cable Service</figcaption>
 			</figure>
 		</a>
 		<a href="https://forestcitynews.com" rel="noopener" target="_blank">
 			<figure>
-				<img src="/images/projects/forest_city_news.png" alt="Picture of The Forest City News Website"/>
+				<img src="/images/projects/forest_city_news.webp" alt="Picture of The Forest City News Website"/>
 				<figcaption>The Forest City News</figcaption>
 			</figure>
 		</a>
@@ -70,13 +70,13 @@ permalink: /
 	<div class="img-wrapper">
 		<a href="https://manelinehairdesign.com/" rel="noopener" target="_blank">
 			<figure>
-				<img src="/images/projects/mane_line_hair_design.png" alt="Picture of Mane Line Hair Design Website"/>
+				<img src="/images/projects/mane_line_hair_design.webp" alt="Picture of Mane Line Hair Design Website"/>
 				<figcaption>Mane Line Hair Design</figcaption>
 			</figure>
 		</a>
 		<a href="https://foundryvtt.wiki" rel="noopener" target="_blank">
 			<figure>
-				<img src="/images/projects/foundry_vtt_wiki.png" alt="Picture of Foundry VTT Community Wiki"/>
+				<img src="/images/projects/foundry_vtt_wiki.webp" alt="Picture of Foundry VTT Community Wiki"/>
 				<figcaption>Foundry VTT Community Wiki</figcaption>
 			</figure>
 		</a>
