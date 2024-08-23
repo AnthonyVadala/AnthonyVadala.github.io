@@ -13,11 +13,13 @@ photo_embed: /images/profile_picture.jpg # Sets picture for Twitter Card/Open Gr
 title: Anthony Vadala
 email: personal@anthonyvadala.me
 description: Hello, I'm Anthony Vadala! I am a professional router resetter and hobbyist web designer.
+bluesky_username: anthonyvadala
 twitter_username: Anthony_Vadala
 github_username: AnthonyVadala
 gitlab_username: AnthonyVadala
 linkedin_username: anthonyvadala
 keybase_username: anthonyvadala
+mastodon_username: anthonyvadala
 
 #Header Text
 header_text: Hello, I'm Anthony Vadala!
