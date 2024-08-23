@@ -13,6 +13,9 @@
 		<loc>https://anthonyvadala.me/thirdparty</loc>
 	</url>
 	<url>
+		<loc>https://anthonyvadala.me/tools</loc>
+	</url>
+	<url>
 		<loc>https://anthonyvadala.me/404</loc>
 	</url>
 	<url>
@@ -23,6 +26,9 @@
 	</url>
 	<url>
 		<loc>https://anthonyvadala.me/.well-known/security.txt</loc>
+	</url>
+	<url>
+		<loc>https://homeassistant.anthonyvadala.me</loc>
 	</url>
 	<url>
 		<loc>https://mta-sts.anthonyvadala.me</loc>
