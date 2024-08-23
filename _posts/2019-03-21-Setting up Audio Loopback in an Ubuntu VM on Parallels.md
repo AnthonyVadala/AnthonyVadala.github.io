@@ -10,12 +10,12 @@ Over the past few months, I have become the Dungeon Master for my online Dungeon
 
 Originally, I started out using the built-in jukebox on Roll20 for ambient and audio tracks but I wanted to have more control over my audio selection (especially since Roll20 has removed support for audio platforms such as SoundCloud in the past). After experimenting with different solutions, such as Discord bots, I came up with a "hacky" solution that gives me all the control I want.
 
+<!--more-->
+
 ## Requirements
 - [Parallels](https://www.parallels.com/)
 - Ubuntu-based distro - I am using [Pop_OS!](https://system76.com/pop)
 - A second [Discord account](https://discordapp.com/register)
-
-<!--more-->
 
 ## Setup
 

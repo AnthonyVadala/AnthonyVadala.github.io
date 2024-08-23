@@ -5,6 +5,8 @@ permalink: /:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 ---
 
+<!--more-->
+
 To begin, open your terminal and `cd` to your project directory.
 
 ## Steps

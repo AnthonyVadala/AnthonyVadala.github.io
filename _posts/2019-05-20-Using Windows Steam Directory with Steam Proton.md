@@ -8,6 +8,8 @@ excerpt_separator: <!--more-->
 ## Introduction
 If you are like me and have a large Steam library and are still switching from Windows to Linux, you can actually use your Windows installed games on Linux thanks to the Valve developed [Proton](https://github.com/ValveSoftware/Proton/wiki/Requirements)!
 
+<!--more-->
+
 ## Requirements
 - The Linux version of [Steam](https://store.steampowered.com/about/) installed (I am using Ubuntu 19.04)
 - A separate NTFS formatted disk with your Steam library folder (this guide assumes that Windows is NOT installed on this disk)
@@ -38,8 +40,6 @@ If you are like me and have a large Steam library and are still switching from W
     ```
     sudo apt install python-minimal
     ```
-
-<!--more-->
 
 ## Finding the Attached Disk Partition and UUID
 In order to find your NTFS partition label you can use the following command:
