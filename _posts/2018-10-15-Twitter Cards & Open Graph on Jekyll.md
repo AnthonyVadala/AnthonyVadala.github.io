@@ -5,6 +5,8 @@ permalink: /:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 ---
 
+<!--more-->
+
 ## Getting Started
 {% raw %}
 In Jekyll, there are two types of variables:

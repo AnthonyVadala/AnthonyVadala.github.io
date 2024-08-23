@@ -10,6 +10,8 @@ Sometimes, I write small PHP web applications that are used on an internal web p
 
 **Note: This will only work on if the URL in the iframe matches the same domain as the host page it is embedded on.**
 
+<!--more-->
+
 ## Getting 100% iframe Height
 The big part of having the iframe integrate seamlessly into the portal is to have the height of it match the height PHP web application, that way I don't need to scroll inside the iframe to view everything.
 
@@ -36,7 +38,6 @@ frameborder="0" scrolling="no" id="the_iframe" width="100%">
 ```
 
 **Note: Replace `https://YOURDOMAIN` with the URL you want to be iframed.**
-<!--more-->
 
 ## (Optional) Scroll iframe and Page to Top
 I like to have both the content inside the iframe and the host page to be scrolled to the top every time something is loaded inside the iframe. I do this by having this additional part to the onLoad event: `window.parent.parent.scrollTo(0,0);`

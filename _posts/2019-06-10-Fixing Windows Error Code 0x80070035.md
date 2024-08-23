@@ -8,6 +8,8 @@ excerpt_separator: <!--more-->
 ## Introduction
 I was recently imaging two new desktop computers that did not match my companies standard Dell OptiPlex 3060 rollout. During the usual setup process, I install printers from a network share that contains all of the office printers. Except I couldn't connect to the network share on these two new PCs! I was getting the dreaded Windows Error Code: 0x80070035.
 
+<!--more-->
+
 <img src="/images/posts/2019/06/10/image1.PNG" alt="Windows Access Error">
 
 I tried the typical troubleshooting steps for this error:
@@ -18,8 +20,6 @@ I tried the typical troubleshooting steps for this error:
 - Made sure the "Function Discovery Provider Host" and "Function Discovery Resource Publication" Services were both enabled and running
 
 While none of the above helped me correct the error (they may help you!), I did eventually figure out a fix to this error!
-
-<!--more-->
 
 ## Fixing the Error
 

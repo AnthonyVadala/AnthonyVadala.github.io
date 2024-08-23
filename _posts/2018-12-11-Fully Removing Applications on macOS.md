@@ -8,6 +8,8 @@ excerpt_separator: <!--more-->
 ## Introduction
 While macOS handles the removal of applications better than the mess of `%APPDATA%` files and registry keys found on Windows. If you are like me and want to remove ALL traces of an application from your computer, finding where an application creates folders and files on your system is pretty useful.
 
+<!--more-->
+
 ## Applications Folder
 The first step in removing and an application from macOS is to open the Finder and click on `Applications` on the left-hand sidebar.
 
@@ -17,8 +19,6 @@ With the simple part out of the way, let's go file hunting!
 
 ## The Two Library folders
 There are two locations on your disk drive, both named `Library`, where applications store their preferences and supporting files. The first is located at the top level of your disk drive `/` and the second is inside your Home Folder `~`. Removing files from both these locations is necessary to completely uninstall applications.
-
-<!--more-->
 
 ### Top Level Library Folder
 Let's start with the top-level `Library` folder, which contains systemwide preferences and application support files. You can get to this directory using the *Go to Folder...* shortcut in Finder. To use this shortcut open Finder and make sure it is in focus, then just hold <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>G</kbd> and you will see this popup:
