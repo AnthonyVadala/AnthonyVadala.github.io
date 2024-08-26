@@ -51,7 +51,7 @@ permalink: /tools/dnd5e-jump-calculator
 
 >... you might need to make a <span class="value">DC10 Strength (Athletics)</span> check to jump over them.
 
->... you cannot jump over any obstacles that are taller than <span class="value" id="obstacle">2.5</span>
+>... you cannot jump over any obstacles that are taller than <span class="value" id="obstacle">2.5</span> feet.
 
 **If you land in difficult terrain...**
 
