@@ -10,18 +10,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Site Information -->
-	<title>AD&D 2E Character Sheet</title>
+	<title>Anthony Vadala - Tools - AD&D2E Character Sheet</title>
 
-	<!-- Favicons -->
-	<link rel="icon" type="image/x-icon" href="/images/adnd2e/favicon.ico">
+	<!-- Favicons generated with https://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=2">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png?v=2">
+	<link rel="icon" type="image/png" sizes="194x194" href="/images/favicons/favicon-194x194.png?v=2">
+	<link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-chrome-192x192.png?v=2">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png?v=2">
+	<link rel="manifest" href="/images/favicons/site.webmanifest?v=2">
+	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v=2" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/favicons/favicon.ico?v=2">
+	<meta name="msapplication-TileColor" content="#4374bf">
+	<meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png?v=2">
+	<meta name="msapplication-config" content="/images/favicons/browserconfig.xml?v=2">
+	<meta name="theme-color" content="#4374bf">
 
-	<link href="adnd2e/sheet.css" rel="stylesheet" id="the-sheet">
-	<script src="adnd2e/sheet.js"></script>
+	<!-- CSS Style Sheet/JS -->
+	<link rel="stylesheet" type="text/css" href="/tools/adnd2e/character-sheet.css" />
+	<script src="/tools/adnd2e/character-sheet.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0..1,0" />
 </head>
 
 <body ondragenter="on_drag_enter(event);" ondragover="on_drag_enter(event);" ondrop="on_drop(event);" ondragleave="on_drag_leave(event);">
 
+	<!-- Side Panel Start -->
 	<div id="modal-bg" onclick="close_modal(event)" class='no-print'></div>
 		<div id='url-modal' class='modal'>
 			<p>Enter URL</p>
@@ -47,9 +60,9 @@
 			<span class="material-symbols-outlined no-click"><b>format_size</b></span>
 			<div class='tooltip no-print'><span class="material-symbols-outlined">arrow_left</span>Select Font</div>
 		</div>
-		<div id="colour-selection" class='show-tooltip'>
-			<input id="pencil-colour" type="color" onchange='change_pencil_colour(event)' oninput='change_pencil_colour(event)'></input>
-			<div class='tooltip no-print'></div>
+		<div id="color-selection" class='show-tooltip'>
+			<input id="pencil-color" type="color" onchange='change_pencil_color(event)' oninput='change_pencil_color(event)'></input>
+			<div class='tooltip no-print'><span class="material-symbols-outlined">arrow_left</span>Select Font Color</div>
 		</div>
 		<div id="show-player-aid" class='show-tooltip'>
 			<input type=checkbox onchange="update_player_aid(event)" checked></input>
@@ -61,17 +74,20 @@
 		</div>
 	</div>
 	<div id="instructions" class="no-print hidden">
-		<b>For Best Results Use Safari Or A Chromium-Based Browser</b><br><br>
 		<b>Save</b>: Click the save icon or use the keyboard shortcut Ctrl + S.<br>
 		<b>Load</b>: Drag and drop the `.json` file from your computer over the character sheet.<br>
 		<b>Print</b>: Toggle "Printer Friendly Mode" from the menu bar.<br>
+		<b>Text Color</b>: Clicking the color wheel allows editing of the fillable text color.<br>
 		<b>Edit</b>: Click on the various parts of the sheet to edit.<br>
-		<b>Spells</b>: You can memorize and cast spells after turning off edit mode for the spell list.<br>
+		<b>Spells</b>: Memorize and cast spells after turning off edit mode for the spell list.<br>
 		<b>Portrait</b>: Add a portrait by mousing over the bottom right corner of the "Notes" section and clicking the button.<br><br>
 		Forked from <a href="https://github.com/tamas-rabel/tamas-rabel.github.io" rel="noopener" target="_blank">tamas-rabel</a>
 	</div>
+	<!-- Side Panel End -->
 
+	<!-- Start Page 1-->
 	<div class=page>
+
 		<div id="player-aid">
 			<div id="help-saving-throws">
 				Roll over<br>
@@ -93,6 +109,7 @@
 				Roll under<br>
 			</div>
 		</div>
+
 		<div id="character">
 			<table>
 				<tr><td colspan=2><div class='input'><label>Name</label><div><input type=text id="character-name"></input></div></div></td></tr>
@@ -100,6 +117,7 @@
 				<tr><td><div class='input'><label>Class</label><div><input type='text'/></div></div></td><td><div class='input'><label>Level</label><div><input type='text'/></div></div></td></tr>
 			</table>
 		</div>
+
 		<div id="logo">
 			<img src="/images/adnd2e/adnd2e-logo.png" class="non-serialized">
 		</div>
@@ -170,6 +188,7 @@
 				<tr><td>Run</td><td>(<input type=text value="X5" disabled></input>)</td><td><input type='text'/></td></tr>
 			</table>
 		</div>
+
 		<div id="saving-throws">
 			<table vertical-tabindex reverse-vertical>
 				<tr><td><input type='text'/></td><td>Paralization/<br>Poison</td><td><input type='text'/></td></tr>
@@ -180,6 +199,7 @@
 				<tr><td>Modifier</td><td></td><td>Save</td></tr>
 			</table>
 		</div>
+
 		<div id="ac">
 			<table>
 				<tr><td rowspan=4 class=shield>AC<input type='text'/></td><td>Adjusted AC</td><td>Armor type (pieces)</td></tr>
@@ -189,12 +209,14 @@
 				<tr><td colspan=3><div class='input'><label>Defenses</label><div><input type='text'/></div></div></td></tr>
 			</table>
 		</div>
+
 		<div id="hp">
 			<table>
 				<tr><td>HIT POINTS</td><td>Wounds</td></tr>
 				<tr><td><input type='text'/></td><td><textarea></textarea></td></tr>
 			</table>
 		</div>
+
 		<div id="weapons">
 			<table>
 				<thead>
@@ -210,6 +232,7 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="thieving">
 			<table>
 				<tr>
@@ -247,6 +270,7 @@
 				</tr>
 			</table>
 		</div>
+
 		<div id="turning">
 			<table>
 				<tr>
@@ -281,6 +305,7 @@
 				</tr>
 			</table>
 		</div>
+
 		<div id="spells">
 			<table>
 				<tr>
@@ -307,6 +332,7 @@
 				</tr>
 			</table>
 		</div>
+
 		<div id="special-abilities">
 			<table vertical-tabindex>
 				<thead>
@@ -323,6 +349,7 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="proficiencies">
 			<table vertical-tabindex>
 				<thead>
@@ -339,6 +366,7 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="xp">
 			<table>
 				<thead>
@@ -353,6 +381,7 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="money">
 			<table vertical-tabindex>
 				<thead>
@@ -365,9 +394,13 @@
 				</tbody>
 			</table>
 		</div>
-	</div>
 
+	</div>
+	<!-- End Page 1-->
+
+	<!-- Start Page 2 -->
 	<div class=page>
+
 		<div id="gear">
 			<table>
 				<thead>
@@ -398,6 +431,7 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="notes">
 			<table>
 				<thead>
@@ -408,10 +442,12 @@
 				</tbody>
 			</table>
 		</div>
+
 		<div id="portrait">
 			<div id="edit-image" class="no-print" onclick="change_image_url(event)"></div>
 			<img id="portrait-image"/>
 		</div>
+
 		<div id="spell-list">
 			<div class="tooltip-container show-tooltip">
 				<input type=checkbox id='spell-list-edit' class='no-print' onchange="update_spell_list_mode()" checked></input>
@@ -465,6 +501,9 @@
 				</tbody>
 			</table>
 		</div>
+		
 	</div>
+	<!-- End Page 2 -->
+
 </body>
 </html>
