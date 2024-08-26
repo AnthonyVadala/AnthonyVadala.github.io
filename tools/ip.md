@@ -1,6 +1,6 @@
 ---
-layout: page
-title: What Is My IP Address
+layout: default
+title: Anthony Vadala - Tools - What Is My IP Address
 permalink: /tools/ip
 ---
 
