@@ -1,0 +1,19 @@
+.DCinputs {
+	padding: 8px;
+	margin: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 80px;
+	text-align: left;
+}
+
+.value {
+	display: inline;
+	font-weight: 900;
+	color: #fdfdfd;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0 !important;
+}
