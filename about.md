@@ -18,10 +18,10 @@ permalink: /
 
 <!-- Social Media Links -->
 <ul class="buttonList">
-	{% if site.twitter_username %}
-	<li class="button twitter">
-		<a href="https://twitter.com/{{ site.twitter_username }}" rel="noopener" accesskey="t" data-instant>
-			<span class="fab fa-twitter"></span> Twitter</a>
+	{% if site.bluesky_username %}
+	<li class="button bluesky">
+		<a href="https://bsky.app/profile/{{ site.bluesky_username }}" rel="noopener" accesskey="b" data-instant>
+			<span class="fab fa-bluesky"></span> Bluesky</a>
 	</li>
 	{% endif %} {% if site.linkedin_username %}
 	<li class="button linkedin">

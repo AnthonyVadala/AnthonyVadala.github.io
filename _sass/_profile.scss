@@ -128,15 +128,15 @@ body {
 	}
 	
 
-	// Twitter Button
-	.twitter a,
-	.twitter ul li a {
-		border-color: $twitter-color;
-		background: $twitter-color;
+	// Bluesky Button
+	.bluesky a,
+	.bluesky ul li a {
+		border-color: $bluesky-color;
+		background: $bluesky-color;
 		&:hover {
-			border-color: $twitter-color;
+			border-color: $bluesky-color;
 			background: $white;
-			color: $twitter-color;
+			color: $bluesky-color;
 		}
 	}
 

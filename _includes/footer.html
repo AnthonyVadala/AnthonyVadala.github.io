@@ -15,11 +15,11 @@
 
 			<div class="footer-col footer-col-2">
 				<ul class="social-media-list">
-					{% if site.twitter_username %}
+					{% if site.bluesky_username %}
 					<li>
-						<span class="fab fa-twitter" aria-hidden="true"></span>
-						<a href="https://twitter.com/{{ site.twitter_username }}" rel="noopener" target="_blank" accesskey="t" data-no-instant>
-							<span class="username">Twitter</span>
+						<span class="fab fa-bluesky" aria-hidden="true"></span>
+						<a href="https://bsky.app/profile/{{ site.bluesky_username }}" rel="noopener" target="_blank" accesskey="b" data-no-instant>
+							<span class="username">Bluesky</span>
 						</a>
 					</li>
 					{% endif %} {% if site.linkedin_username %}
