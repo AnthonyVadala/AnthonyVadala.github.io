@@ -5,8 +5,7 @@ The source for my personal website, which you can find at [anthonyvadala.me](htt
 
 This Site Utilizes the Following:
 =============
-- Google Domains (Domain Name Registration)
-- CloudFlare (HTTPS/SSL/Web Analytics)
+- CloudFlare (Domain Registration + HTTPS/SSL)
 - Jekyll (Static Website Generation)
 - GitHub Pages (Hosting)
 - instant.page (Preloads Links)

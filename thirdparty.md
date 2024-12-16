@@ -13,4 +13,3 @@ title: Third Party Cookies and Scripts
 - [Google Fonts](https://fonts.google.com/) - [Droid Sans](https://fonts.googleapis.com/css?family=Droid+Sans)
 - [Google Hosted Libraries](https://developers.google.com/speed/libraries/) - [jQuery 3.7.1](https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js)
 - [JSFiddle](https://jsfiddle.net/)
-- [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)
