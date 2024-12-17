@@ -1,12 +1,12 @@
-# Ignore macOS .DS_Store #
+# Ignore macOS .DS_Store
 .DS_Store
 
-# Jekyll Ignore #
+# Ignore Jekyll Folders
 _drafts/
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-# Ruby Ignore
+# Ignore Ruby lock
 Gemfile.lock
