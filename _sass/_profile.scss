@@ -16,7 +16,7 @@ body {
 }
 
 // Tag Formatting
-tag {
+.tag {
 	display: inline-block;
 	margin: 0.25em;
 	padding: .1em .6em;
@@ -255,9 +255,10 @@ tag {
 
 
 	// Tag Formatting
-	tag {
+	.tag {
 		background-color: $brand-color;
 		border: 1px solid $brand-color;
 		box-shadow: 0 1px 0 $brand-color,0 0 0 2px $brand-color inset;
 	}
 }
+

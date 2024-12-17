@@ -12,12 +12,12 @@ permalink: /
 <!-- Short Intro -->
 <div id="title">Hello, I'm Anthony Vadala!</div>
 <div id="sub-title">
-	<tag>Router Resetter</tag>
-	<tag>VHS Dubber</tag>
-	<tag>Video Game Enjoyer</tag>
-	<tag>Tabletop GM</tag>
-	<tag>Tea Drinker</tag>
-	<tag>They/Them</tag>
+	<span class="tag">Router Resetter</span>
+	<span class="tag">VHS Dubber</span>
+	<span class="tag">Video Game Enjoyer</span>
+	<span class="tag">Tabletop GM</span>
+	<span class="tag">Tea Drinker</span>
+	<span class="tag">They/Them</span>
 </div>
 
 <!-- Social Media Links -->
