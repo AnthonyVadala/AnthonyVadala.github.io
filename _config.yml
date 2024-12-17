@@ -12,7 +12,7 @@ photo_embed: /images/profile_picture.jpg # Sets picture for Twitter Card/Open Gr
 #Personal Settings
 title: Anthony Vadala
 email: personal@anthonyvadala.me
-description: Hello, I'm Anthony Vadala! I am a professional router resetter and hobbyist web designer.
+description: Hello, I'm Anthony Vadala! Router Resetter && VHS Dubber && Video Game Enjoyer && Tabletop GM && Tea Drinker && They/Them
 bluesky_username: anthonyvadala.me
 mastodon_username: anthonyvadala
 twitter_username: Anthony_Vadala
@@ -20,7 +20,3 @@ linkedin_username: anthonyvadala
 github_username: AnthonyVadala
 gitlab_username: AnthonyVadala
 keybase_username: anthonyvadala
-
-#Header Text
-header_text: Hello, I'm Anthony Vadala!
-description_text: I am a professional router resetter and hobbyist web designer.
