@@ -15,6 +15,19 @@ body {
 	background-color: $background-color;
 }
 
+// Tag Formatting
+tag {
+	display: inline-block;
+	margin: 0.25em;
+	padding: .1em .6em;
+	line-height: 1.4;
+	background-color: $white;
+	border: 1px solid $brand-color;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 $brand-color,0 0 0 2px $white inset;
+	white-space: nowrap;
+}
+
 
 // Small Screen Styling
 @media screen and (min-width: 0px) {
@@ -238,5 +251,13 @@ body {
 	// Button Configuration
 	.button a {
 		color: $white;
+	}
+
+
+	// Tag Formatting
+	tag {
+		background-color: $brand-color;
+		border: 1px solid $brand-color;
+		box-shadow: 0 1px 0 $brand-color,0 0 0 2px $brand-color inset;
 	}
 }

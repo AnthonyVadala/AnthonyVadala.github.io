@@ -1,5 +1,5 @@
 ---
-# About SCSS Template
+# Portfolio SCSS Template
 ---
 
 @charset "utf-8";
@@ -37,13 +37,6 @@ $grey-color-light: #e5e5e5;
 $text-color-darktheme:       #fdfdfd;
 $background-color-darktheme: #3f5279;
 
-// Media Colors
-$bluesky-color:     #0085ff;
-$github-color:      #4183c5;
-$gitlab-color:      #fca326;
-$linkedin-color:    #007bb6;
-$keybase-color:     #ff6f21;
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -60,6 +53,69 @@ $keybase-color:     #ff6f21;
 
 // Import from `_sass` dir
 @import
+	"base",
+	"layout",
 	"menu",
-	"profile"
+	"projects"
 ;
+
+// Date
+.date {
+	color: $grey-color;
+	font-style: italic;
+}
+
+// Layout
+#related {
+	margin-top: 2em;
+}
+
+#related h2 {
+	margin-bottom: 1em;
+}
+
+#related ul,
+ol {
+	margin-left: 10px;
+}
+
+.related_left {
+	float: left;
+	width: 45%;
+}
+
+.related_right {
+	float: right;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+ul.posts {
+	list-style-type: none;
+}
+
+ul.posts span {
+	color: $grey-color;
+	font-family: monospace;
+	font-size: 80%;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+
+// Dark Theme
+@media (prefers-color-scheme: dark) {
+	// Date
+	.date {
+		color: $grey-color-light;
+	}
+
+
+	ul.posts span {
+		color: $grey-color-light;
+	}
+}

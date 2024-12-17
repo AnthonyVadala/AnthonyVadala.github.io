@@ -10,11 +10,15 @@ permalink: /
 </div>
 
 <!-- Short Intro -->
-{% if site.header_text %}
-<div id="title">{{ site.header_text }}</div>
-{% endif %} {% if site.description_text %}
-<div id="sub-title">{{ site.description_text }}</div>
-{% endif %}
+<div id="title">Hello, I'm Anthony Vadala!</div>
+<div id="sub-title">
+	<tag>Router Resetter</tag>
+	<tag>VHS Dubber</tag>
+	<tag>Video Game Enjoyer</tag>
+	<tag>Tabletop GM</tag>
+	<tag>Tea Drinker</tag>
+	<tag>They/Them</tag>
+</div>
 
 <!-- Social Media Links -->
 <ul class="buttonList">
@@ -45,41 +49,3 @@ permalink: /
 	</li>
 	{% endif %}
 </ul>
-
-<!-- Project Container -->
-<div class="projectContainer">
-
-	<!-- Projects Section -->
-	<div class="section-header">
-		<span class="fas fa-code"></span> Projects
-	</div>
-	<div class="img-wrapper">
-		<a href="https://web.archive.org/web/20210623233716/https://www.adamscable.com/" rel="noopener" target="_blank">
-			<figure>
-				<img src="/images/projects/adams_cable_service.webp" alt="Picture of Adams Cable Service Website" />
-				<figcaption>Adams Cable Service| <i>2017 - 2021</i></figcaption>
-			</figure>
-		</a>
-		<a href="https://forestcitynews.com" rel="noopener" target="_blank">
-			<figure>
-				<img src="/images/projects/forest_city_news.webp" alt="Picture of The Forest City News Website"/>
-				<figcaption>The Forest City News | <i>2021 - Present</i></figcaption>
-			</figure>
-		</a>
-	</div>
-	<div class="img-wrapper">
-		<a href="https://manelinehairdesign.com/" rel="noopener" target="_blank">
-			<figure>
-				<img src="/images/projects/mane_line_hair_design.webp" alt="Picture of Mane Line Hair Design Website"/>
-				<figcaption>Mane Line Hair Design | <i>2016 - Present</i></figcaption>
-			</figure>
-		</a>
-		<a href="https://foundryvtt.wiki" rel="noopener" target="_blank">
-			<figure>
-				<img src="/images/projects/foundry_vtt_wiki.webp" alt="Picture of Foundry VTT Community Wiki"/>
-				<figcaption>Foundry VTT Community Wiki | <i>2019 - Present</i></figcaption>
-			</figure>
-		</a>
-	</div>
-
-</div>

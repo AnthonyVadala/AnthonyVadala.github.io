@@ -1,4 +1,4 @@
-// Profile Projects Section Styling
+// Projects Page Styling
 // Small Screen Styling
 @media screen and (min-width: 0px) {
 	// Basic Formating
@@ -13,45 +13,7 @@
 		font-weight: bold;
 	}
 
-	.content {
-		padding-left: 0%;
-		padding-right: 0%;
-	}
 
-	.section-header {
-		font-size: 1.5em;
-		color: $text-color;
-		font-weight: bold;
-		width: 100%;
-		padding-top: 40px;
-		padding-bottom: 40px;
-		text-align: center;
-		font-family: $base-font-family;
-	}
-
-	.section-pad {
-		padding-left: 10%;
-		padding-right: 3%;
-		padding-bottom: 10px;
-		padding-top: 10px;
-		font-size: 1.0em;
-	}
-
-	.job-pad {
-		padding-bottom: 5px;
-	}
-	
-	
-	// List Fix
-	ol {
-		list-style-type: circle;
-	}
-
-	ol li {
-		margin-left: 15px;
-	}
-	
-	
 	// Project Images
 	.img-wrapper {
 		display: block;
@@ -86,58 +48,32 @@
 		&:hover {
 			background-color: $grey-color-light;
 			color: $brand-color;
+			border-radius: 2%;
 		}
-	}
-	
-	
-	// Projects Sections Color Styling
-	.section {
-		background-color: $grey-color-light;
-		height: 100%;
-		width: 100%;
-		text-align: left;
 	}
 }
 
 // Small to Desktop Screens
 @media screen and (min-width: 1300px) {
-	// Basic Projects Formating
-	.section-pad {
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-
-	.section-header {
-		width: 100%;
-		text-align: left;
-		color: $text-color;
-		font-family: $base-font-family;
-	}
-	
-	
 	// Project Images
 	.img-wrapper {
 		display: flex;
+		justify-content: center !important;
 	}
 
 	.img-wrapper img {
 		display: flex;
-		width: 100%;
-		max-width: 480px;
-		height: 300px;
-		align-content: center;
+		max-width: 90%;
+		height: 90%;
+		margin-top: 25px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
 
 // Dark Theme
 @media (prefers-color-scheme: dark) {
-	// Projects Sections Color Styling
-	.section {
-		background-color: $grey-color-light;
-	}
-
-
 	// Project Images
 	.img-wrapper a {
 		color: $text-color-darktheme;
@@ -145,11 +81,5 @@
 			background-color: $brand-color;
 			color: $text-color-darktheme;
 		}
-	}
-
-
-	// Basic Formating
-	.section-header {
-		color: $text-color-darktheme;
 	}
 }

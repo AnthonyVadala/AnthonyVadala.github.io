@@ -344,8 +344,9 @@ kbd {
 
 	// Blockquotes
 	blockquote {
-		color: $grey-color;
-		border-left: 4px solid $grey-color-light;
+		color: $background-color;
+		border-left: 4px solid $brand-color;
+		font-weight: 90;
 	}
 
 
