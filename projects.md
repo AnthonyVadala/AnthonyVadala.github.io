@@ -49,7 +49,7 @@ permalink: /projects
 
 <br>
 
-<h1><span class="fas fa-code"></span> Websites</h1>
+<h1><span class="fa-solid fa-laptop-code"></span> Websites</h1>
 
 <!-- Website Project Container -->
 <div class="projectContainer">
