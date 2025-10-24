@@ -5,9 +5,8 @@ The source for my personal website, which you can find at [anthonyvadala.me](htt
 
 This Site Utilizes the Following:
 =============
-- Cloudflare (Domain Registration + HTTPS/SSL)
+- Cloudflare (Domain Registration, HTTPS/SSL, Deployment, and Hosting)
 - Jekyll (Static Website Generation)
-- GitHub Pages (Hosting)
 - instant.page (Preloads Links)
 - Droid Sans (Font)
 - Font Awesome (Icon Toolkit)
