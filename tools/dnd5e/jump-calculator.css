@@ -1,7 +1,10 @@
 .DCinputs {
-	padding: 8px;
-	margin: 5px;
-	border-radius: 5px;
+	padding: .2em .3em;
+	border: 3px solid #3f5279;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 	font-weight: bold;
 	width: 80px;
 	text-align: left;
