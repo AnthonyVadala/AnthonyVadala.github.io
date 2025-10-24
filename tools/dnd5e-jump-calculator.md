@@ -11,11 +11,11 @@ permalink: /tools/dnd5e-jump-calculator
 # Dungeons & Dragons 5E - Jump Calculator
 
 **How tall are you?**
-<input id="heightFT" value="6" class="DCinputs"><sup>feet</sup>
-<input id="heightIN" value="0" class="DCinputs"><sup>inches</sup>
+<input id="heightFT" value="6" class="DCinputs"><sup> feet</sup>
+<input id="heightIN" value="0" class="DCinputs" maxlength="2"><sup> inches</sup>
 
-**What is your Strength score?** <input id="STR" value="10" class="DCinputs">
-<div id="DEXopt" style="display:none"><span style="font-weight: bold">What is your Dexterity score?</span><input id="DEX" value="10" class="DCinputs"><br><br></div>
+**What is your Strength score?** <input id="STR" value="10" class="DCinputs" maxlength="2">
+<div id="DEXopt" style="display:none"><span style="font-weight: bold">What is your Dexterity score?</span><input id="DEX" value="10" class="DCinputs" maxlength="2"><br><br></div>
 
 **Additional Options**
 <ul>
