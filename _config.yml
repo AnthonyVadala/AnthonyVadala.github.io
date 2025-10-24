@@ -2,10 +2,21 @@
 baseurl: "" # The subpath of website, e.g. /blog/
 url: "https://anthonyvadala.me" # The base hostname & protocol for the site
 plugins: # Include plugins
-  - jekyll-paginate
-  - jekyll-redirect-from
+   - jekyll-sass-converter
+   - jekyll-paginate
+   - jekyll-redirect-from
+   - jekyll-webmention_io
+   - jekyll-feed
+   - jekyll-coffeescript
+   - jekyll-default-layout
+   - jekyll-gist
+   - jekyll-github-metadata
+   - jekyll-optional-front-matter
+   - jekyll-readme-index
+   - jekyll-titles-from-headings
+   - jekyll-relative-links
 paginate: 5 # Sets items per page
-paginate_path: /blog/page:num/ # Sets path of pages
+paginate_path: /posts/page:num/ # Sets path of pages
 permalink: /404.html # Sets 404 page
 photo_embed: /images/profile_picture.jpg # Sets picture for Twitter Card/Open Graph
 
@@ -15,7 +26,6 @@ email: personal@anthonyvadala.me
 description: Hello, I'm Anthony Vadala! Router Resetter && VHS Dubber && Video Game Enjoyer && Tabletop GM && Tea Drinker && They/Them
 bluesky_username: anthonyvadala.me
 mastodon_username: anthonyvadala
-twitter_username: Anthony_Vadala
 linkedin_username: anthonyvadala
 github_username: AnthonyVadala
 gitlab_username: AnthonyVadala
