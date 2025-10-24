@@ -8,5 +8,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Ignore Ruby lock
+# Ignore Ruby Gem lock
 Gemfile.lock
+
+# Ignore Front Matter
+.frontmatter/
+frontmatter.json
