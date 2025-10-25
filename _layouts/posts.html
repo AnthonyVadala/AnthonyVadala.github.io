@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+{% include head.html %}
+
+<body data-instant-allow-external-links>
+
+	<!-- Menu -->
+	{% include menu.html %}
+
+	<div class="posts-page-content">
+		<main>
+			<div class="posts-wrapper">
+				{{ content }}
+			</div>
+		</main>
+	</div>
+	
+	<!-- Footer -->
+	{% include footer.html %}
+
+	<!-- instant.page preloading for websites | https://instant.page/ -->
+	<script src="/js/instantpage-5.2.0.js" type="module" defer></script>
+
+</body>
+
+</html>
