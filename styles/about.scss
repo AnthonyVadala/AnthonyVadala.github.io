@@ -14,7 +14,6 @@ $base-font-family: Droid Sans, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.75;
-
 $spacing-unit:     30px;
 
 // Width of the content area
@@ -22,22 +21,16 @@ $content-width:    1000px;
 $on-laptop:        1000px;
 $on-palm:          600px;
 
-// Default/Light Theme Colors
-$text-color:       #404040;
-$background-color: #fdfdfd;
-$brand-color:      #29354E;
-$white:            #ffffff;
+// Theme Colors
+$white:             #ffffff;
+$light-white:       #fdfdfd;
+$dark-blue:         #29354E;
+$light-blue:        #3f5279;
+$dark-grey:         #828282;
+$light-grey:        #e5e5e5;
+$med-grey:          #404040;
 
-$menu-hover:       #3f5279;
-
-$grey-color:       #828282;
-$grey-color-light: #e5e5e5;
-
-// Dark Theme Colors
-$text-color-darktheme:       #fdfdfd;
-$background-color-darktheme: #3f5279;
-
-// Media Colors
+// Social Media Colors
 $bluesky-color:     #0085ff;
 $github-color:      #4183c5;
 $gitlab-color:      #fca326;
