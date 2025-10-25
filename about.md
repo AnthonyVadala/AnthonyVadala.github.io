@@ -4,6 +4,14 @@ title: Anthony Vadala - About
 permalink: /
 ---
 
+<!-- Menu Radius Override For About Page -->
+<style>
+	ul.topnav {
+		border-bottom-right-radius: 0px !important;
+		border-bottom-left-radius: 0px !important;
+}
+</style>
+
 <!-- Profile Header -->
 <div id="background">
 	<div id="circular"></div>
