@@ -17,7 +17,6 @@
 	<meta name="twitter:title" content="{{ page.title }}">
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="twitter:site" content="{{ site.twitter_username }}">
 	<meta property="twitter:image" content="{{ site.url }}{{ site.photo_embed }}">
 
 	<!-- Open Graph -->
@@ -30,7 +29,7 @@
 	<!-- IndieAuth/Webmention.io Profiles Verifications -->
 	<link href="mailto:{{ site.email }}" rel="me">
 	<link href="https://bsky.app/profile/{{ site.bluesky_username }}" rel="me">
-	<link href="https://mastodon.social/@anthonyvadala" rel="me" >
+	<link href="https://mastodon.social/@{{ site.mastodon_username }}" rel="me" >
 	<link href="https://github.com/{{ site.github_username }}" rel="me">
 
 	<!-- Webmention.io-->
@@ -62,11 +61,11 @@
 
 	<!-- CSS Style Sheet -->
 	{% if page.title contains 'Anthony Vadala - About' }} %}
-		<link rel="stylesheet" href="{{ "/css/about.css " | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/styles/about.css " | prepend: site.baseurl }}">
 	{% else %}
-		<link rel="stylesheet" href="{{ "/css/blog.css " | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/styles/posts.css " | prepend: site.baseurl }}">
 	{% endif %}
 	{% if page.title contains 'Anthony Vadala - Projects' }} %}
-		<link rel="stylesheet" href="{{ "/css/portfolio.css " | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/styles/portfolio.css " | prepend: site.baseurl }}">
 	{% endif %}
 	</head>
