@@ -14,7 +14,3 @@ permalink: /archive
 	<li><span>{{ post.date | date: "%b %d" }}</span> &raquo; <a href="{{ post.url }}" rel="noopener">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
-
-<center>
-{{ site.posts | size }} total posts
-</center>
