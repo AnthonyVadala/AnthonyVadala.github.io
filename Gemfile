@@ -1,17 +1,27 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby "3.4.4"
 
-gem "jekyll", "4.3.4"
-gem "webrick", "~> 1.8.1"
+# Jekyll Version
+gem "jekyll", "4.4.1"
 
-# to use GitHub Pages
-# gem "github-pages", group: :jekyll_plugins
+# HTTP server toolkit
+gem "webrick", "~> 1.9.1"
 
-# If you have any plugins, put them here!
+# Jekyll Plugins
 group :jekyll_plugins do
+   gem "jekyll-sass-converter"
    gem "jekyll-paginate"
    gem "jekyll-redirect-from"
    gem "jekyll-webmention_io"
+   gem "jekyll-feed"
+   gem "jekyll-coffeescript"
+   gem "jekyll-default-layout"
+   gem "jekyll-gist"
+   gem "jekyll-github-metadata"
+   gem "jekyll-optional-front-matter"
+   gem "jekyll-readme-index"
+   gem "jekyll-titles-from-headings"
+   gem "jekyll-relative-links"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
