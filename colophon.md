@@ -3,12 +3,12 @@ layout: default
 title: Anthony Vadala - colophon
 permalink: /colophon
 redirect_from:
-  - /thirdparty
+   - /thirdparty
 ---
 
 This is my [colophon page](https://indieweb.org/colophon).
 
-My website uses [Jekyll](https://jekyllrb.com/) with a template theme designed by me, which is deployed and hosted on [GitHub Pages](https://pages.github.com/).
+This website uses [Jekyll](https://jekyllrb.com/) with a theme designed by me, which is deployed and hosted on [CloudFlare Pages](https://pages.cloudflare.com/).
 
 This website **does not** track users.
 
@@ -19,4 +19,4 @@ Some other bits of tech used by this site are:
 
 If you want to see how this website works, everything can be found in the [Github repo](https://github.com/AnthonyVadala/AnthonyVadala.github.io).
 
-> Updated December 17th, 2024
+> Updated October 24th, 2025
