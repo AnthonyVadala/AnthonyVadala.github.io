@@ -11,8 +11,8 @@ body {
 	flex-direction: column;
 	font-family: $base-font-family;
 	-webkit-text-size-adjust: 100%;
-	color: $text-color;
-	background-color: $background-color;
+	color: $med-grey;
+	background-color: $light-white;
 }
 
 // Tag Formatting
@@ -21,20 +21,23 @@ body {
 	margin: 0.25em;
 	padding: .1em .6em;
 	line-height: $base-line-height;
-	background-color: $white;
-	border: 1px solid $brand-color;
+	color: $light-white;
+	background-color: $dark-blue;
 	border-radius: 3px;
-	box-shadow: 0 1px 0 $brand-color,0 0 0 2px $white inset;
 	white-space: nowrap;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 
 // Small Screen Styling
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) { 
 	// Header Text Style
 	#title {
 		font-size: 3em;
-		color: $text-color;
+		color: $med-grey;
 		text-align: center;
 		padding-top: 15px;
 		padding-bottom: 25px;
@@ -42,7 +45,7 @@ body {
 
 	#sub-title {
 		font-size: 1.35em;
-		color: $text-color;
+		color: $med-grey;
 		text-align: center;
 		padding-bottom: 40px;
 		padding-left: 1em;
@@ -50,11 +53,15 @@ body {
 	}
 
 	#background {
-		background-color: $brand-color;
+		background-color: $dark-blue;
 		padding-top: 50px;
 		margin-bottom: 100px;
 		height: 100px;
 		width: 100%;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 	}
 	
 
@@ -71,7 +78,7 @@ body {
 		background: url(/images/profile_picture.webp) no-repeat;
 		background-size: 200px 200px;
 		border-width: 5px;
-		border-color: $grey-color-light;
+		border-color: $light-grey;
 	}
 	
 
@@ -105,7 +112,7 @@ body {
 		border-width: 2px;
 		border-style: solid;
 		outline: none;
-		transition: all 1.5s;
+		transition: all 0.5s;
 		font-family: $base-font-family;
 		color: $white;
 	}
@@ -123,7 +130,7 @@ body {
 			max-height: 200px;
 			border-width: 1px;
 			border-style: solid;
-			transition: 1.5s;
+			transition: 0.5s;
 		}
 	}
 
@@ -137,13 +144,17 @@ body {
 		text-decoration: none;
 		padding: 5px 0;
 		outline: 0;
-		transition: all 1.5s;
+		transition: all 0.5s;
 	}
 	
 
 	// Bluesky Button
 	.bluesky a,
 	.bluesky ul li a {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: $bluesky-color;
 		background: $bluesky-color;
 		&:hover {
@@ -157,6 +168,10 @@ body {
 	// GitHub Button
 	.github a,
 	.github ul li a {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: $github-color;
 		background: $github-color;
 		&:hover {
@@ -170,6 +185,10 @@ body {
 	// GitLab Button
 	.gitlab a,
 	.gitlab ul li a {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: $gitlab-color;
 		background: $gitlab-color;
 		&:hover {
@@ -183,6 +202,10 @@ body {
 	// LinkedIn Button
 	.linkedin a,
 	.linkedin ul li a {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: $linkedin-color;
 		background: $linkedin-color;
 		&:hover {
@@ -196,6 +219,10 @@ body {
 	// Keybase.io Button
 	.keybase a,
 	.keybase ul li a {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: $keybase-color;
 		background: $keybase-color;
 		&:hover {
@@ -223,28 +250,28 @@ body {
 @media (prefers-color-scheme: dark) {
 	// General Styling
 	body {
-		color: $text-color-darktheme;
-		background-color: $background-color-darktheme;
+		color: $light-white;
+		background-color: $light-blue;
 	}
 
 	
 	// Header Text Style
 	#title {
-		color: $text-color-darktheme;
+		color: $light-white;
 	}
 
 	#sub-title {
-		color: $text-color-darktheme;
+		color: $light-white;
 	}
 
 	#background {
-		background-color: $brand-color;
+		background-color: $dark-blue;
 	}
 
 
 	// Profile Picture
 	#circular {
-		border-color: $grey-color-light;
+		border-color: $light-grey;
 	}
 
 
@@ -252,13 +279,4 @@ body {
 	.button a {
 		color: $white;
 	}
-
-
-	// Tag Formatting
-	.tag {
-		background-color: $brand-color;
-		border: 1px solid $brand-color;
-		box-shadow: 0 1px 0 $brand-color,0 0 0 2px $brand-color inset;
-	}
 }
-

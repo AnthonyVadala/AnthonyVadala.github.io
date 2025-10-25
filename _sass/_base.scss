@@ -75,8 +75,8 @@ body {
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 	font-weight: 300;
-	color: $text-color;
-	background-color: $background-color;
+	color: $light-white;
+	background-color: $light-white;
 	-webkit-text-size-adjust: 100%;
 	display: flex;
 	flex-direction: column;
@@ -134,48 +134,75 @@ h6 {
 
 // Links
 a {
-	color: $brand-color;
+	color: $light-white;
 	text-decoration: none;
 	transition: color 1.5s linear;
 	&:visited {
-		color: $brand-color;
+		color: $light-white;
 	}
 	&:hover {
-		color: $brand-color;
+		color: $light-white;
 		text-decoration: underline;
 		transition: color 1.5s linear;
 	}
 }
+
 
 .wrapper a {
-	text-decoration: underline dotted $brand-color;
+	text-decoration: underline dotted $light-white;
 	transition: color 1.5s linear;
 	&:visited {
-		color: $brand-color;
+		color: $light-white;
 	}
 	&:hover {
-		text-decoration: underline $brand-color;
+		text-decoration: underline $light-white;
 		transition: color 1.5s linear;
 	}
 }
 
+
 .wrapper .post-title a {
-	color: $brand-color;
+	color: $light-white;
 	text-decoration: none;
 	transition: color 1.5s linear;
 	&:visited {
-		color: $brand-color;
+		color: $light-white ;
 	}
 	&:hover {
-		color: $brand-color;
-		text-decoration: underline;
+		color: $light-white;
+		text-decoration: underline dotted;
 		transition: color 1.5s linear;
 	}
 }
 
 
 // Wrapper
-.wrapper {
+.page-content .wrapper {
+	background: $dark-blue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+	max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $spacing-unit;
+	padding-left: $spacing-unit;
+	@extend %clearfix;
+	@include media-query($on-laptop) {
+		max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+		max-width: calc(#{$content-width} - (#{$spacing-unit}));
+		padding-right: calc($spacing-unit / 2);
+		padding-left: calc($spacing-unit / 2);
+	}
+}
+
+.posts-page-content .posts-wrapper .post {
+	background: $dark-blue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	margin-top: 30px;
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 	max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
 	margin-right: auto;
@@ -204,15 +231,15 @@ a {
 
 // Footer
 .site-footer a {
-	color: $grey-color-light;
+	color: $light-grey;
 	text-decoration: none;
 	transition: color 1s linear;
 	&:visited {
-		color: $grey-color-light;
+		color: $light-grey;
 	}
 	&:hover {
-		color: $grey-color-light;
-		text-decoration: underline;
+		color: $light-grey;
+		text-decoration: underline dotted;
 		transition: color 1s linear;
 	}
 }
@@ -237,8 +264,9 @@ figcaption {
 
 // Blockquotes
 blockquote {
-	color: $grey-color;
-	border-left: 4px solid $grey-color-light;
+	color: $light-grey;
+	border-left: 4px solid $light-white;
+	background-color: $light-blue;
 	padding-left: 10px;
 	padding-left: calc($spacing-unit / 2);
 	font-size: 18px;
@@ -254,9 +282,9 @@ blockquote {
 pre,
 code {
 	font-size: 15px;
-	border: 1px solid $grey-color-light;
+	border: 1px solid $light-blue;
 	border-radius: 3px;
-	background-color: $grey-color-light;
+	background-color: $light-blue;
 }
 
 code {
@@ -276,16 +304,25 @@ pre {
 
 // Keyboard Formatting
 kbd {
+	display: inline;
 	display: inline-block;
-	margin: 0 .1em;
-	padding: .1em .6em;
-	line-height: $base-line-height;
-	text-shadow: 0 1px 0 $white;
-	background-color: $grey-color-light;
-	border: 1px solid $grey-color-light;
-	border-radius: 3px;
-	box-shadow: 0 1px 0 $grey-color-light,0 0 0 2px $white inset;
-	white-space: nowrap;
+	min-width: 1em;
+	padding: .2em .3em;
+	font: normal .85em/1 "Lucida Grande", Lucida, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	border: none;
+	cursor: default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	background: $light-blue;
+	background: -moz-linear-gradient(top, $light-blue, $dark-blue);
+	background: -webkit-gradient(linear, left top, left bottom, from($light-blue), to($dark-blue));
+	color: $light-white;
 }
 
 
@@ -293,77 +330,7 @@ kbd {
 @media (prefers-color-scheme: dark) {
 	// Basic Styling
 	body {
-		color: $text-color-darktheme;
-		background-color: $background-color-darktheme;
-	}
-
-
-	// Links
-	a {
-		color: $text-color-darktheme;
-		&:visited {
-			color: $text-color-darktheme;
-		}
-		&:hover {
-			color: $text-color-darktheme;
-		}
-	}
-
-	.wrapper a {
-		text-decoration: underline dotted $text-color-darktheme;
-		&:visited {
-			color: $text-color-darktheme;
-		}
-		&:hover {
-			text-decoration: underline $text-color-darktheme;
-		}
-	}
-	
-	.wrapper .post-title a {
-		color: $text-color-darktheme;
-		&:visited {
-			color: $text-color-darktheme;
-		}
-		&:hover {
-			color: $text-color-darktheme;
-		}
-	}
-
-
-	// Footer
-	.site-footer a {
-		color: $grey-color-light;
-		text-decoration: none;
-		&:visited {
-			color: $grey-color-light;
-		}
-		&:hover {
-			color: $grey-color-light;
-		}
-	}
-
-
-	// Blockquotes
-	blockquote {
-		color: $background-color;
-		border-left: 4px solid $brand-color;
-		font-weight: 90;
-	}
-
-
-	// Code Formatting
-	pre,
-	code {
-		border: 1px solid $brand-color;
-		background-color: $brand-color;
-	}
-
-
-	// Keyboard Formatting
-	kbd {
-		text-shadow: 0 1px 0 $white;
-		background-color: $brand-color;
-		border: 1px solid $brand-color;
-		box-shadow: 0 1px 0 $brand-color,0 0 0 2px $white inset;
+		color: $light-white;
+		background-color: $light-blue;
 	}
 }

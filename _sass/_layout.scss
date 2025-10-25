@@ -1,4 +1,4 @@
-// Blog Layout
+// Posts Layout Styling
 // Title
 .site-title {
 	font-size: 26px;
@@ -8,7 +8,7 @@
 	float: left;
 	&,
 	&:visited {
-		color: $grey-color-light;
+		color: $light-grey;
 	}
 }
 
@@ -19,9 +19,13 @@ footer {
 }
 
 .site-footer {
-	border-top: 1px solid $grey-color-light;
-	padding: $spacing-unit 0;
-	background-color: $brand-color;
+	border-top: 1px solid $dark-blue;
+	padding: $spacing-unit;
+	background-color: $dark-blue;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 
 .footer-heading {
@@ -33,14 +37,26 @@ footer {
 .social-media-list {
 	list-style: none;
 	margin-left: 0;
-	color: $grey-color-light;
+	color: $light-grey;
 }
 
 .footer-col-wrapper {
 	font-size: 15px;
-	color: $grey-color;
-	margin-left: - calc($spacing-unit / 2);
+	color: $dark-grey;
+	background: $dark-blue;
+	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+	max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $spacing-unit;
+	padding-left: $spacing-unit;
 	@extend %clearfix;
+	@include media-query($on-laptop) {
+		max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+		max-width: calc(#{$content-width} - (#{$spacing-unit}));
+		padding-right: calc($spacing-unit / 2);
+		padding-left: calc($spacing-unit / 2);
+	}
 }
 
 .footer-col {
@@ -110,7 +126,7 @@ footer {
 
 .post-meta {
 	font-size: $small-font-size;
-	color: $grey-color;
+	color: $dark-grey;
 }
 
 .post-link {
@@ -176,18 +192,25 @@ ul {
 .pagination a,
 .pagination span {
 	padding: 7px 18px;
-	border: 0px solid $grey-color-light;
+	border: 0px solid $light-grey;
 	margin-left: -2px;
 	margin-right: -2px;
-	background-color: $white;
+	background-color: $light-blue;
 	display: inline-block;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	transition: 0.5s
 }
 
 .pagination a {
 	&:hover {
-		background-color: $grey-color-light;
-		color: $text-color;
+		background-color: $dark-blue;
+		color: $light-white;
 		text-decoration: none;
+		transition: 0.5s
 	}
 }
 
@@ -196,68 +219,6 @@ ul {
 }
 
 .webjeda {
-	background-color: $brand-color !important;
-	color: $white !important;
-}
-
-.post_break {
-	border-bottom: 1px solid $grey-color;
-}
-
-
-// Dark Theme
-@media (prefers-color-scheme: dark) {
-	// Title
-	.site-title {
-		&,
-		&:visited {
-			color: $grey-color-light;
-		}
-	}
-
-
-	// Site Footer
-	.site-footer {
-		border-top: 1px solid $brand-color;
-		background-color: $brand-color;
-	}
-
-	.contact-list,
-	.social-media-list {
-		color: $grey-color-light;
-	}
-
-	.footer-col-wrapper {
-		color: $grey-color;
-	}
-
-
-	// Page Content
-	.post-meta {
-		color: $grey-color;
-	}
-
-
-	// Pagination
-	.pagination a,
-	.pagination span {
-		border: 0px solid $grey-color-light;
-		background-color: $background-color-darktheme;
-	}
-
-	.pagination a {
-		&:hover {
-			background-color: $brand-color;
-			color: $text-color-darktheme;
-		}
-	}
-
-	.webjeda {
-		background-color: $brand-color !important;
-		color: $text-color-darktheme !important;
-	}
-
-	.post_break {
-		border-bottom: 1px solid $grey-color-light;
-	}
+	background-color: $dark-blue !important;
+	color: $light-white !important;
 }
