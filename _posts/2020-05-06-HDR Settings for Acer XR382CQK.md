@@ -1,18 +1,18 @@
 ---
 title: HDR Settings for Acer XR382CQK
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2020/05/06/HDR-Settings-for-Acer-XR382CQK
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 After some experimentation and Google searching, I came up with the following settings and configurations to get the best HDR experience on my Acer XR382CQK monitor.
+
+<!--more-->
 
 **This guide assumes you are using the latest version of Windows 10 and a NVIDIA GPU.**
 
 **NOTE: COLORS WILL LOOK WASHED OUT UNTIL THE VERY LAST STEP!**
-
-<!--more-->
 
 ## Monitor Configuration
 - Change to ***HDR mode***

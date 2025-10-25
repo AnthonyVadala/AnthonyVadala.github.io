@@ -1,11 +1,11 @@
 ---
 title: Full-screen iframe with a Height of 100%
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2018/12/19/Full-screen-iframe-with-a-Height-of-100
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 Sometimes, I write small PHP web applications that are used on an internal web portal. The problem with the web portal is that it does not support inline PHP, but it does support inline JS and HTML. Using a bit of JS and a HTML iframe I display these web applications and make them appear to be a part of the web portal itself!
 
 **Note: This will only work on if the URL in the iframe matches the same domain as the host page it is embedded on.**

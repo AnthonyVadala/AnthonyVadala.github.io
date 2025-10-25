@@ -1,11 +1,10 @@
 ---
 title: How to Remove Commit History From GitHub
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2018/10/08/How-to-Remove-Commit-History-From-GitHub
 excerpt_separator: <!--more-->
 ---
-
-<!--more-->
 
 To begin, open your terminal and `cd` to your project directory.
 
@@ -22,14 +21,16 @@ To begin, open your terminal and `cd` to your project directory.
 
 `git commit -am "Your commit message here"`
 
-**Delete old master branch**
+**Delete old main branch**
 
-`git branch -D master`
+`git branch -D main`
 
-**Rename temporary branch to master**
+**Rename temporary branch to main**
 
-`git branch -m master`
+`git branch -m main`
 
 **Force update to repository**
 
-`git push -f origin master`
+`git push -f origin main`
+
+<!--more-->

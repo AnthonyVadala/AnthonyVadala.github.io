@@ -1,7 +1,10 @@
 ---
 title: Twitter Cards & Open Graph on Jekyll
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: 
+    - /2018/10/15/Twitter-Cards-&-Open-Graph-on-Jekyll
+    - /posts/2018/10/15/Twitter-Cards-&-Open-Graph-on-Jekyll
 excerpt_separator: <!--more-->
 ---
 

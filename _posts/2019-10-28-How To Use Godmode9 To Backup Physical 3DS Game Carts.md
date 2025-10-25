@@ -1,11 +1,11 @@
 ---
 title: How To Use Godmode9 To Backup Physical 3DS Game Carts
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2019/10/28/How-To-Use-Godmode9-To-Backup-Physical-3DS-Game-Carts
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 In order to follow the steps below, you will need to have CFW installed on your 3DS/2DS console. Just follow the easy guide step by step guide [here](https://3ds.hacks.guide/) to get everything setup and configured.
 
 <!--more-->

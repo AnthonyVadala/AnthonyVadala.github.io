@@ -1,11 +1,11 @@
 ---
 title: Fixing Windows Error Code 0x80070035
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2019/06/10/Fixing-Windows-Error-Code-0x80070035
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 I was recently imaging two new desktop computers that did not match my companies standard Dell OptiPlex 3060 rollout. During the usual setup process, I install printers from a network share that contains all of the office printers. Except I couldn't connect to the network share on these two new PCs! I was getting the dreaded Windows Error Code: 0x80070035.
 
 <!--more-->

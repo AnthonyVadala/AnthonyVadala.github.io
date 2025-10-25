@@ -1,11 +1,11 @@
 ---
 title: Fully Removing Applications on macOS
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2018/12/11/Fully-Removing-Applications-on-macOS
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 While macOS handles the removal of applications better than the mess of `%APPDATA%` files and registry keys found on Windows. If you are like me and want to remove ALL traces of an application from your computer, finding where an application creates folders and files on your system is pretty useful.
 
 <!--more-->

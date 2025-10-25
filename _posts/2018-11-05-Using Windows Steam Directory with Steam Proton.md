@@ -1,15 +1,15 @@
 ---
 title: Using a Windows Steam Directory with Steam Proton
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_to: /posts/2019/05/20/Using-Windows-Steam-Directory-with-Steam-Proton
+published: false
 excerpt_separator: <!--more-->
-redirect_to: /2019/05/20/Using-Windows-Steam-Directory-with-Steam-Proton/
 ---
 
 ## This Post Is Outdated and Should Redirect to the Updated Version
 *[Click here if you were not redirected](/2019/05/20/Using-Windows-Steam-Directory-with-Steam-Proton/)*
 
-## Introduction
 If you are like me and have a large Steam library and are still switching from Windows to Linux, you can actually use your Windows installed games on Linux thanks to the Valve developed [Proton](https://github.com/ValveSoftware/Proton/wiki/Requirements)!
 
 <!--more-->

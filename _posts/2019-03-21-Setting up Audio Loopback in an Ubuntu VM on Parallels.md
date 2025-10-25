@@ -1,11 +1,11 @@
 ---
 title: Setting up Audio Loopback in an Ubuntu VM on Parallels
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2019/03/21/Setting-up-Audio-Loopback-in-an-Ubuntu-VM-on-Parallels
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 Over the past few months, I have become the Dungeon Master for my online Dungeons & Dragons group. We currently use [Roll20](https://app.roll20.net/) as our Virtual Tabletop, [D&D Beyond](https://www.dndbeyond.com/) for character tracking, and [Discord](https://discordapp.com/) for voice chat.
 
 Originally, I started out using the built-in jukebox on Roll20 for ambient and audio tracks but I wanted to have more control over my audio selection (especially since Roll20 has removed support for audio platforms such as SoundCloud in the past). After experimenting with different solutions, such as Discord bots, I came up with a "hacky" solution that gives me all the control I want.

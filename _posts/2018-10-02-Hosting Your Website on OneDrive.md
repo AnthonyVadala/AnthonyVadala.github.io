@@ -1,7 +1,8 @@
 ---
 title: Hosting Your Website on OneDrive
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2018/10/02/Hosting-Your-Website-on-OneDrive
 excerpt_separator: <!--more-->
 ---
 

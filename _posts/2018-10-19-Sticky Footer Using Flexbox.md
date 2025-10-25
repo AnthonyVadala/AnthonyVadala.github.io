@@ -1,7 +1,8 @@
 ---
 title: Sticky Footer Using Flexbox
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2018/10/19/Sticky-Footer-Using-Flexbox
 excerpt_separator: <!--more-->
 ---
 

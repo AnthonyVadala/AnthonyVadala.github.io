@@ -1,11 +1,11 @@
 ---
 title: Adaptive CSS Dark Mode
 layout: post
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title
+redirect_from: /2019/10/24/Dark-Mode-Adaptive-CSS
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
 If you have been using the internet in the past year or so, you may have noticed many websites and even desktop and mobile operating systems now have a toggle or even automatic dark modes. In the past this required some creative use of JavaScript or other means to automatically switch the color scheme or require input from the user to toggle between these modes. 
 
 With the new `prefers-color-scheme` CSS media feature, the browser itself can detect the user's browser and operating system preferences and automatically toggle between different color schemes depending on the preference (light mode or dark mode).
