@@ -6,6 +6,6 @@ permalink: /now
 
 This is my [now](https://nownownow.com/about) page.
 
-Living in the Greater Harrisburg Area. Recently celebrated my first full year as a Technical Support Specialist @ SPX Flow. Continuing to support various web clients. Working on updating various bits of the Foundry VTT Community wiki website and Foundry VTT modules. Reworking various bits of this website to eventually support parts of the IndieWeb.
+Living in the Greater Harrisburg Area. Recently celebrated my first full year as a Technical Support Specialist @ SPX Flow. Continuing to support various web clients. Working on updating various bits of the Foundry VTT Community wiki website and Foundry VTT modules. Reworking various bits of this website to eventually support more parts of the IndieWeb.
 
-> Updated October 24th, 2025
+> Updated October 26th, 2025
