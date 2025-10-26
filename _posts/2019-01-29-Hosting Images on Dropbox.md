@@ -6,6 +6,11 @@ redirect_from: /2019/01/29/Hosting-Images-on-Dropbox
 excerpt_separator: <!--more-->
 ---
 
+<blockquote>
+    <span class="fa-solid fa-triangle-exclamation"></span> 
+    I no longer use Dropbox and instead utilize an images folder in this website's repository
+</blockquote>
+
 When I started this blog several months ago, I was still deciding on how best to host images. My first thought was to use GitHub itself, since that is where this website is hosted. But that wouldn't be a long-term solution considering that [GitHub strongly recommends keeping repositories under 1GB](https://help.github.com/articles/what-is-my-disk-quota/) and has restrictions.
 
 Then I considered using Google Photos, but I have been trying to cut back on the amount of Google services I use because [I don't trust Google to keep services running long term](https://en.wikipedia.org/wiki/List_of_Google_products#Discontinued_products_and_services).
