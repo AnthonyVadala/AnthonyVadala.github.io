@@ -149,13 +149,19 @@ a {
 
 
 .wrapper a {
+	color: $light-white;
 	text-decoration: underline dotted $light-white;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
 	transition: color 1.5s linear;
 	&:visited {
 		color: $light-white;
 	}
 	&:hover {
+		color: $light-white;
 		text-decoration: underline $light-white;
+		text-decoration-line: underline;
+		text-decoration-style: solid;
 		transition: color 1.5s linear;
 	}
 }
@@ -171,6 +177,8 @@ a {
 	&:hover {
 		color: $light-white;
 		text-decoration: underline dotted;
+		text-decoration-line: underline;
+		text-decoration-style: solid;
 		transition: color 1.5s linear;
 	}
 }
@@ -240,6 +248,8 @@ a {
 	&:hover {
 		color: $light-grey;
 		text-decoration: underline dotted;
+		text-decoration-line: underline;
+		text-decoration-style: dotted;
 		transition: color 1s linear;
 	}
 }
