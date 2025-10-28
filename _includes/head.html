@@ -13,11 +13,8 @@
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 	<!-- Twitter Card -->
-	<meta property="twitter:card" content="summary">
+	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{{ page.title }}">
-	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="twitter:image" content="{{ site.url }}{{ site.photo_embed }}">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="article">
