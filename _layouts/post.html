@@ -10,11 +10,11 @@
 	{% include menu.html %}
 
 	<div class="page-content">
-		<div class="wrapper">
+		<article class="wrapper">
 			<h1 class="post-title">&raquo; {{ page.title }}</h1>
 			<span class="date">{{ page.date | date: '%B %d, %Y' }} - {% include reading-time-post.html %} read</span>
 			{{ content }}
-		</div>
+		</article>
 	</div>
 
 	<!-- Footer -->
