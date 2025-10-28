@@ -12,6 +12,49 @@
 	}
 }
 
+// Search Box
+#search-container ::placeholder {
+	color: #fdfdfd;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#search-container ::-ms-input-placeholder {
+	color: #fdfdfd;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#search-container input {
+	font-size: 30px;
+	appearance: none;
+	border: 3px solid #3f5279;
+	border-radius: 0.5em;
+	padding: 0.25em 0.75em;
+	width: 90%;
+	color: #fdfdfd;
+	background: #3f5279;
+	} #search-container input:focus {
+		background: #3f5279;
+		color: #fdfdfd;
+		border: 3px solid #fdfdfd;
+	} #search-container input:focus::placeholder {
+		color: #fdfdfd;
+	} #search-container input:focus::-ms-input-placeholder {
+		color: #fdfdfd;
+	}
+
+#search-container {
+	left: auto;
+	right: auto;
+	justify-items: center;
+	align-items: center;
+}
+
+#search-container ol {
+	padding-top: 15px;
+}
+
 
 // Site Footer
 footer {
