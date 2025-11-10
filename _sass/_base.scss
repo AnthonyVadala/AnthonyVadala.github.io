@@ -226,6 +226,22 @@ a {
 	}
 }
 
+.posts-page-content .posts-wrapper .post .post-title a {
+	text-decoration: underline dotted;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	transition: color 1.5s linear;
+	&:visited {
+		color: $light-white ;
+	}
+	&:hover {
+		text-decoration: underline solid;
+		text-decoration-line: underline;
+		text-decoration-style: solid;
+		transition: color 1.5s linear;
+	}
+}
+
 
 // Clearfix
 %clearfix {
