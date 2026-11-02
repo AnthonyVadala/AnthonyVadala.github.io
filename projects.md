@@ -12,36 +12,36 @@ permalink: /projects
 	<div class="img-wrapper">
 		<a href="https://github.com/foundry-vtt-community/macros" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Fmacros&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for foundry-vtt-community/macros">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Fmacros&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for foundry-vtt-community/macros">
 			</figure>
 		</a>
 		<a href="https://github.com/foundry-vtt-community/tables" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Ftables&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for foundry-vtt-community/tables">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Ftables&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for foundry-vtt-community/tables">
 			</figure>
 		</a>
 	</div>
 	<div class="img-wrapper">
 		<a href="https://github.com/foundry-vtt-community/wiki.js" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Fwiki.js&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for foundry-vtt-community/wiki.js">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=foundry-vtt-community%2Fwiki.js&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for foundry-vtt-community/wiki.js">
 			</figure>
 		</a>
 		<a href="https://github.com/AnthonyVadala/Startpage" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=AnthonyVadala%2FStartpage&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for AnthonyVadala/Startpage">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=AnthonyVadala%2FStartpage&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for AnthonyVadala/Startpage">
 			</figure>
 		</a>
 	</div>
 	<div class="img-wrapper">
 		<a href="https://github.com/AnthonyVadala/pokemonsay" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=AnthonyVadala%2Fpokemonsay&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for AnthonyVadala/pokemonsay">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=AnthonyVadala%2Fpokemonsay&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for AnthonyVadala/pokemonsay">
 			</figure>
 		</a>
 		<a href="https://github.com/AnthonyVadala/Terminal_Settings" rel="noopener" target="_blank">
 			<figure>
-				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=Terminal_Settings&show_owner=true&description_lines_count=3&theme=solarized-dark" alt="GitHubt Repo for AnthonyVadala/Terminal_Settings">
+				<img src="https://github-stats-extended.vercel.app/api/pin?username=AnthonyVadala&repo=Terminal_Settings&show_owner=true&description_lines_count=3&theme=nord" alt="GitHubt Repo for AnthonyVadala/Terminal_Settings">
 			</figure>
 		</a>
 	</div>
